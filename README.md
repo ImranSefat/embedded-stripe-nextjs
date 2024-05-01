@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Stripe Payment Integration
+----------------------------------
 
-## Getting Started
+This repository contains a sample Next.js application demonstrating seamless integration with Stripe for handling payments. By utilizing Next.js, React, and the Stripe API, this project showcases how to set up a robust payment system within a modern web application framework.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-   Stripe Integration: Implements Stripe Checkout for processing payments securely.
+-   Client-Side & Server-Side Logic: Demonstrates a combination of client-side and server-side code to handle payment flows efficiently.
+-   Payment Workflow: Guides users through the payment process in the same website in a modal and then navigates the user to a separate page for validating the payment. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   Next.js: The React framework for building server-rendered applications.
+-   React: A JavaScript library for building user interfaces.
+-   Stripe API: Utilizes Stripe's powerful API for handling payments and managing customer transactions.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## How to Use
 
-## Learn More
+1.  Clone the repository locally.
+2.  Install dependencies using `npm install`.
+3.  Set up your Stripe account and obtain API keys.
+4.  Replace placeholders with your Stripe API keys in the .env file.
+5.  Run the development server using `npm run dev`.
+6.  Visit `http://localhost:3000` to interact with the payment integration.
 
-To learn more about Next.js, take a look at the following resources:
+## Folder Structure:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   `pages/`: Contains Next.js pages and API routes.
+-   `components/`: Includes React components for building the UI.
+-   `public/`: Stores static assets like images and stylesheets.
+-   `utils/`: Houses utility functions and configuration files.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributions:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions and feedback are welcome! Feel free to submit issues, feature requests, or pull requests to help improve this project.
