@@ -20,7 +20,7 @@ This repository contains a sample Next.js application demonstrating seamless int
 1.  Clone the repository locally.
 2.  Install dependencies using `npm install`.
 3.  Set up your Stripe account and obtain API keys.
-4.  Replace placeholders with your Stripe API keys in the .env file.
+4.  Replace placeholders with your Stripe API keys in the `.env` file.
 5.  Run the development server using `npm run dev`.
 6.  Visit `http://localhost:3000` to interact with the payment integration.
 
