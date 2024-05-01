@@ -14,6 +14,7 @@ This repository contains a sample Next.js application demonstrating seamless int
 -   Next.js: The React framework for building server-rendered applications.
 -   React: A JavaScript library for building user interfaces.
 -   Stripe API: Utilizes Stripe's powerful API for handling payments and managing customer transactions.
+-   Stripe Packages: `@stripe/stripe-js`, `@stripe/react-stripe-js`, `stripe`
 
 ## How to Use
 
